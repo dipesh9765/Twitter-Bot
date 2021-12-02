@@ -5,7 +5,7 @@ var bodyParser = require("body-parser");
 
 
 // add and intiate MessageBird SDK
-var messagebird = require('messagebird')('R3hYzuZbXAQ4y3o29fpy3xqpv');
+var messagebird = require('messagebird')(/*Enter Your Token Here inside apostrophi*/);
 //this API has to be fetched from messagebird dashboard after signup (but has limited request).
 
 // set up express framework
