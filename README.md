@@ -27,14 +27,15 @@ Run on Local Server
   ```bash
   git clone https://github.com/dipesh9765/Two-step-Authentication.git
 ```
+Go project
 ```bash
   cd Two-step-Authentication
 ```
-
+Install all the dependencies
 ```bash
  npm install
 ```
-
+Start the server
 ```bash
 npm start
 ```
