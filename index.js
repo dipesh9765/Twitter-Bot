@@ -11,7 +11,9 @@ var messagebird = require('messagebird')('R3hYzuZbXAQ4y3o29fpy3xqpv');
 // set up express framework
 
 var app = express();
-app.engine('handlebars',exphbs({ defaultLayout: 'main' }));
+
+var hbs = exphbs.create();
+app.engine('handlebars',hbs({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 app.use(bodyParser.urlencoded({ extended: true }));
 
